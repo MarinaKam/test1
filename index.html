@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/0aee609c35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <main class="root">
+        <nav class="nav">
+            <span class="nav-icon">
+                <i class="far fa-address-book"></i>
+            </span>
+
+            <h2 class="nav-title">Users contacts</h2>
+        </nav>
+
+        <section class="contacts">
+            <table class="contacts-list">
+                <thead>
+                    <tr class="contacts-list-row">
+                        <th>User name</th>
+                        <th>Phone number</th>
+                        <th colspan="2">Action</th>
+                    </tr>
+                </thead>
+                <tbody class="contacts-list-body"></tbody>
+            </table>
+
+            <div class="actions-fields">
+                <div class="actions-fields-item">
+                    <label for="new-user">Add User Name</label>
+                    <input id="new-user" type="text" name="user">
+                </div>
+
+                <div class="actions-fields-item">
+                    <label for="new-phone">Add User Phone</label>
+                    <input id="new-phone" type="text" name="phone">
+                </div>
+
+                <button class="btn add-btn">Add contact</button>
+            </div>
+        </section>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

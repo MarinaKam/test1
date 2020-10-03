@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    background-color: rgba(0, 105, 217, 0.1);
+    border-bottom: 1px solid rgba(0, 105, 217, 0.6);
+}
+
+.nav-icon {
+    font-size: 36px;
+    color: #007bff;
+    margin-right: 16px;
+}
+
+.nav-title {
+    color: #0C213B;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 16px 48px;
+    overflow: auto;
+}
+
+.section-action-btn:hover {
+    background-color: #0069d9;
+}
+
+.contacts-list {
+    width: 500px;
+    border-collapse: collapse;
+    line-height: 1.1;
+    color: #0C213B;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid rgba(0, 105, 217, 0.6);
+}
+
+td {
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 105, 217, 0.6);
+}
+
+.td {
+    text-align: right;
+}
+
+.td-left {
+    border-right: none;
+}
+
+.td-right {
+    border-left: none;
+}
+
+.btn {
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0069d9;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.actions-fields {
+    padding: 16px 0;
+    text-align: center;
+}
+
+.actions-fields-item {
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+}
+
+label {
+    color: #333;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+input[type="text"] {
+    width: 250px;
+    font-size: 18px;
+    line-height: 18px;
+    height: 16px;
+    padding: 8px;
+    margin: 0 16px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+}
+
+input[type="text"]:focus {
+    color: #333;
+}
+
+.add-btn {
+    margin: 10px 0;
+}
+
+.error {
+    border: 1px solid #c82333 !important;
+}
