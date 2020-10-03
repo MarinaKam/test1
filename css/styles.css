@@ -43,7 +43,7 @@ html, body {
 }
 
 .contacts-list {
-    width: 500px;
+    /*width: 500px;*/
     border-collapse: collapse;
     line-height: 1.1;
     color: #0C213B;
@@ -63,6 +63,9 @@ td {
     text-align: right;
 }
 
+.td-info {
+    width: 190px;
+}
 .td-left {
     border-right: none;
 }
@@ -138,4 +141,10 @@ input[type="text"]:focus {
 
 .error {
     border: 1px solid #c82333 !important;
+}
+
+#edit-user, #edit-phone {
+    width: 190px;
+    border: none;
+    margin: 0;
 }
